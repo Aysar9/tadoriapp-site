@@ -432,9 +432,9 @@ h3 {
 }
 
 .calm-band {
-  background:
-    radial-gradient(circle at 12% 18%, rgba(244, 229, 189, 0.72), transparent 28%),
-    linear-gradient(135deg, #eff7ef 0%, #fbf4e7 100%);
+  background: #f1f7ef;
+  border-bottom: 1px solid var(--color-border);
+  border-top: 1px solid var(--color-border);
 }
 
 .calm-panel {
@@ -552,9 +552,7 @@ h3 {
 
 .article-hero {
   padding: 72px 0 52px;
-  background:
-    linear-gradient(135deg, rgba(219, 234, 223, 0.82), rgba(251, 244, 231, 0.88)),
-    var(--color-surface-soft);
+  background: #f1f7ef;
 }
 
 .article-hero-inner {
@@ -726,7 +724,7 @@ h3 {
   }
 
   .hero {
-    min-height: max(500px, calc(100dvh - 118px));
+    min-height: max(460px, calc(100dvh - 128px));
   }
 
   .hero-art {
@@ -778,7 +776,7 @@ h3 {
   }
 
   .hero {
-    min-height: max(500px, calc(100dvh - 104px));
+    min-height: max(440px, calc(100dvh - 128px));
   }
 
   .hero-art {
