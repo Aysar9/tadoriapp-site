@@ -1,1 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tadori | Calm task and routine manager</title>
+    <meta
+      name="description"
+      content="Tadori is an ADHD-friendly task and routine manager with a calm assistant that helps you find the next small step."
+    >
+    <meta name="theme-color" content="#f7faf5">
+    <meta property="og:title" content="Tadori">
+    <meta
+      property="og:description"
+      content="A calm, local-first task and routine manager for overwhelmed days."
+    >
+    <meta property="og:image" content="assets/img/tadori-hero.png">
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script>document.documentElement.classList.add("js");</script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
 
+    <header class="site-header" data-header>
+      <nav class="nav-shell" aria-label="Main navigation">
+        <a class="brand" href="./" aria-label="Tadori home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" focusable="false">
+              <path d="M16 4c6.2 0 11 4.5 11 10.6 0 7.3-6.6 12-11 13.4C11.6 26.6 5 21.9 5 14.6 5 8.5 9.8 4 16 4Z"></path>
+              <path d="M16 9v14M11.4 14.5c2.3 0 4.6 1.2 4.6 4.6M20.6 14.5c-2.3 0-4.6 1.2-4.6 4.6"></path>
+            </svg>
+          </span>
+          <span>Tadori</span>
+        </a>
+
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="site-menu">
+          <span class="sr-only">Open navigation menu</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M4 7h16M4 12h16M4 17h16"></path>
+          </svg>
+        </button>
+
+        <div class="nav-links" id="site-menu" data-nav-menu>
+          <a href="./" aria-current="page">Home</a>
+          <a href="privacy/">Privacy</a>
+          <a href="terms/">Terms</a>
+          <a class="nav-cta" href="mailto:support@tadoriapp.com">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <img
+          class="hero-art"
+          src="assets/img/tadori-hero.png"
+          width="1536"
+          height="1024"
+          alt="Tadori app shown on a phone with task, routine, and assistant cards."
+        >
+        <div class="hero-scrim" aria-hidden="true"></div>
+        <div class="container hero-copy reveal">
+          <p class="eyebrow">ADHD-friendly planning</p>
+          <h1 id="hero-title">Tadori</h1>
+          <p class="hero-lede">
+            A calm task and routine manager that helps overwhelmed minds find the next small step.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button button-primary" href="mailto:support@tadoriapp.com?subject=Tadori%20updates">
+              <span>Get updates</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M5 12h14M13 6l6 6-6 6"></path>
+              </svg>
+            </a>
+            <a class="button button-secondary" href="#privacy-promise">Privacy promise</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-intro" aria-labelledby="intro-title">
+        <div class="container two-column">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Built for stuck moments</p>
+            <h2 id="intro-title">Less pressure. More momentum.</h2>
+          </div>
+          <p class="large-copy reveal">
+            Tadori is designed for days when a normal to-do list feels too loud. It keeps tasks,
+            routines, reminders, notes, and assistant context close at hand without turning your
+            day into a performance score.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="features-title">
+        <div class="container">
+          <div class="section-heading narrow reveal">
+            <p class="eyebrow">What it helps with</p>
+            <h2 id="features-title">A softer system for real life.</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card reveal">
+              <span class="feature-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false">
+                  <path d="M7 4h10a2 2 0 0 1 2 2v14l-4-2-4 2-4-2-4 2V6a2 2 0 0 1 2-2Z"></path>
+                  <path d="M8 9h8M8 13h6"></path>
+                </svg>
+              </span>
+              <h3>Tasks that do not shout</h3>
+              <p>
+                Capture what matters, keep it readable, and come back to it without guilt when
+                attention drifts.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-icon coral" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false">
+                  <path d="M5 12a7 7 0 1 0 2-4.9"></path>
+                  <path d="M5 5v5h5M12 8v5l3 2"></path>
+                </svg>
+              </span>
+              <h3>Routines with room to breathe</h3>
+              <p>
+                Build repeatable rhythms for mornings, chores, focus sessions, and shutdowns
+                without making missed days feel like failure.
+              </p>
+            </article>
+
+            <article class="feature-card reveal">
+              <span class="feature-icon gold" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false">
+                  <path d="M12 3l1.7 4.3L18 9l-4.3 1.7L12 15l-1.7-4.3L6 9l4.3-1.7L12 3Z"></path>
+                  <path d="M19 14l.8 2.2L22 17l-2.2.8L19 20l-.8-2.2L16 17l2.2-.8L19 14Z"></path>
+                  <path d="M5 15l.6 1.4L7 17l-1.4.6L5 19l-.6-1.4L3 17l1.4-.6L5 15Z"></path>
+                </svg>
+              </span>
+              <h3>A next-step assistant</h3>
+              <p>
+                Ask for help in your own words. The assistant can talk, plan, or help execute,
+                while keeping responses short when Calm Mode is on.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section calm-band" aria-labelledby="calm-title">
+        <div class="container calm-layout">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Calm Mode</p>
+            <h2 id="calm-title">When everything feels like too much, the app gets quieter.</h2>
+            <p>
+              Calm Mode reduces density, simplifies wording, removes heavy shadows, and keeps
+              assistant replies to one sentence so the screen feels easier to enter.
+            </p>
+          </div>
+
+          <div class="calm-panel reveal" aria-label="Calm Mode principles">
+            <div>
+              <span>01</span>
+              <p>One clear next action</p>
+            </div>
+            <div>
+              <span>02</span>
+              <p>Gentle language, never blame</p>
+            </div>
+            <div>
+              <span>03</span>
+              <p>Reduced visual noise</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="privacy-promise" aria-labelledby="privacy-title">
+        <div class="container privacy-layout">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Privacy by design</p>
+            <h2 id="privacy-title">Your day belongs to you.</h2>
+            <p>
+              Tadori is local-first. Core tasks, routines, reminders, notes, and assistant state are
+              designed to live on your device. Account services are for identity, subscriptions, and
+              entitlement checks.
+            </p>
+            <a class="text-link" href="privacy/">Read the full privacy policy</a>
+          </div>
+
+          <div class="promise-grid">
+            <article class="promise-item reveal">
+              <h3>Offline-friendly</h3>
+              <p>Free users do not need a network connection for core app functionality.</p>
+            </article>
+            <article class="promise-item reveal">
+              <h3>Identity only</h3>
+              <p>Supabase is used for authentication, profile, subscription, and entitlement data.</p>
+            </article>
+            <article class="promise-item reveal">
+              <h3>AI on request</h3>
+              <p>Assistant context is sent only when you choose to use assistant features.</p>
+            </article>
+            <article class="promise-item reveal">
+              <h3>No selling data</h3>
+              <p>Tadori does not sell personal information or turn private tasks into ads.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section final-cta" aria-labelledby="final-title">
+        <div class="container final-cta-inner reveal">
+          <p class="eyebrow">iOS, Android, and web</p>
+          <h2 id="final-title">A gentler way to restart your day.</h2>
+          <p>
+            Tadori is being shaped around calm routines, local-first storage, and assistant support
+            that respects the language you actually use.
+          </p>
+          <a class="button button-primary" href="mailto:support@tadoriapp.com?subject=Tadori%20updates">
+            <span>Contact Tadori</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M5 12h14M13 6l6 6-6 6"></path>
+            </svg>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="brand compact" href="./" aria-label="Tadori home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" focusable="false">
+              <path d="M16 4c6.2 0 11 4.5 11 10.6 0 7.3-6.6 12-11 13.4C11.6 26.6 5 21.9 5 14.6 5 8.5 9.8 4 16 4Z"></path>
+              <path d="M16 9v14M11.4 14.5c2.3 0 4.6 1.2 4.6 4.6M20.6 14.5c-2.3 0-4.6 1.2-4.6 4.6"></path>
+            </svg>
+          </span>
+          <span>Tadori</span>
+        </a>
+        <div class="footer-links">
+          <a href="privacy/">Privacy</a>
+          <a href="terms/">Terms</a>
+          <a href="mailto:support@tadoriapp.com">support@tadoriapp.com</a>
+        </div>
+        <p>&copy; <span data-current-year>2026</span> Tadori. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>
